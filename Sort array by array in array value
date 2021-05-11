@@ -1,0 +1,3 @@
+usort($grupNitelik['yabancidil'], function($a, $b) {
+        return $a['metin1'] <=> $b['metin1'];
+    });
